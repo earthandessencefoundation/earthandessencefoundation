@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,26 +9,41 @@
     body {
       font-family: 'Kurale', serif;
       margin: 0;
-      background-color: white;
-      color: #2e3d2f;
+      background-color: #ffffff;
+      color: #2e4d2f;
     }
     header {
-      background-color: #2e7d32;
-      color: white;
-      padding: 20px;
+      background: #002147;
+      padding: 40px 20px;
       text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      letter-spacing: 1px;
+      color: white;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #d4d4d4;
     }
     nav {
-      background-color: #4caf50;
+      background-color: #397d3c;
       display: flex;
       justify-content: center;
-      padding: 10px 0;
+      padding: 12px 0;
     }
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 15px;
+      margin: 0 20px;
       font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #d9f8cb;
     }
     section {
       padding: 40px 20px;
@@ -37,20 +51,31 @@
       margin: auto;
     }
     footer {
-      background-color: #2e7d32;
+      background-color: #397d3c;
       color: white;
       text-align: center;
-      padding: 15px;
+      padding: 20px;
+      margin-top: 40px;
     }
     h1, h2 {
-      color: #1b5e20;
+      color: #205522;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .section-image {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Earth & Essence Foundation</h1>
-    <p>Bringing holistic wellness and sustainability together</p>
+    <h1>🌿 Earth & Essence Foundation 🌱</h1>
+    <p>Empowering lives through wellness, sustainability, and tradition</p>
   </header>
 
   <nav>
@@ -62,16 +87,21 @@
 
   <section id="home">
     <h2>Welcome</h2>
+    <img src="https://source.unsplash.com/900x300/?nature,india" alt="Nature banner" class="section-image" />
     <p>Earth & Essence Foundation is dedicated to the integrated growth of people and the planet through sustainable, holistic practices. We blend traditional knowledge with modern solutions across multiple service sectors.</p>
+    <img src="https://source.unsplash.com/900x300/?sustainable,community" alt="Sustainable community" class="section-image" />
   </section>
 
   <section id="about">
     <h2>About Us</h2>
+    <img src="https://source.unsplash.com/900x300/?india,village" alt="About us image" class="section-image" />
     <p>We are a not-for-profit initiative supporting communities with services that promote health, sustainability, and self-reliance. Our goal is to nurture body, mind, and environment through wellness, organic living, and responsible service delivery.</p>
+    <img src="https://source.unsplash.com/900x300/?tradition,india" alt="Tradition" class="section-image" />
   </section>
 
   <section id="services">
     <h2>Our Services</h2>
+    <img src="https://source.unsplash.com/900x300/?organic,farming" alt="Services image" class="section-image" />
     <ul>
       <li><strong>Wellness:</strong> Ayush, Siddha, Yoga, and Allopathy Integration</li>
       <li><strong>Hospitality:</strong> Eco-stay experiences and traditional care</li>
@@ -80,13 +110,15 @@
       <li><strong>Laundry & Security:</strong> Community-based employment services</li>
       <li><strong>Food:</strong> Healthy meals through cloud kitchens and local hubs</li>
     </ul>
+    <img src="https://source.unsplash.com/900x300/?yoga,health" alt="Yoga and health" class="section-image" />
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:info@earthandessencefoundation.com">info@earthandessencefoundation.com</a></p>
-    <p>Phone: +91-7397230215</p>
+    <p>Phone: +91-7760128672</p>
     <p>Location: Tamil Nadu, India</p>
+    <img src="https://source.unsplash.com/900x300/?contact,india" alt="Contact banner" class="section-image" />
   </section>
 
   <footer>
